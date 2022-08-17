@@ -1,10 +1,11 @@
 {
   "name": "goit-js-hw-08-parcel",
   "version": "1.0.0",
+  "source": "src/index.js",
   "description": "goit js hw 08 parcel",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html"
   },
   "repository": {
     "type": "git",
@@ -17,15 +18,12 @@
   },
   "homepage": "https://github.com/vokur13/goit-js-hw-08-parcel#readme",
   "dependencies": {
-    "express": "^4.18.1",
-    "joi": "^17.6.0",
-    "shortid": "^2.2.16",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.10.3"
   },
   "devDependencies": {
-    "parcel": "latest",
     "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "latest",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
