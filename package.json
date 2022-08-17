@@ -2,13 +2,9 @@
   "name": "goit-js-hw-08-parcel",
   "version": "1.0.0",
   "description": "goit js hw 08 parcel",
-  "source": "src/index.js",
-  "main": "dist/main.js",
-  "module": "dist/module.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
-    "build": "parcel src/index.html"
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
