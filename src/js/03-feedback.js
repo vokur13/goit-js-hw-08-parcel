@@ -24,11 +24,12 @@ function onFormSubmit(e) {
   e.target.reset();
 }
 function onInput(e) {
-  if (e.target.name === 'email') {
-    formData.email = e.target.value;
-  } else {
-    formData.message = e.target.value;
-  }
+  //   if (e.target.name === 'email') {
+  //     formData.email = e.target.value;
+  //   } else {
+  //     formData.message = e.target.value;
+  //   }
+  formData[e.target.name] = e.target.value;
   localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
 }
 function getStorageOutput() {
