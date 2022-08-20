@@ -10,7 +10,6 @@ const refs = {
   form: document.querySelector('.feedback-form'),
   email: document.querySelector('.feedback-form input'),
   textarea: document.querySelector('.feedback-form textarea'),
-  button: document.querySelector('.feedback-form button'),
 };
 
 refs.form.addEventListener('submit', onFormSubmit);
