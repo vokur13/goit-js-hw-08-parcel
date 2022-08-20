@@ -2,8 +2,8 @@ import LodashThrottle from 'lodash.throttle';
 
 const STORAGE_KEY = 'feedback-form-state';
 const formData = {
-  email: '',
-  message: '',
+  //   email: '',
+  //   message: '',
 };
 
 const refs = {
